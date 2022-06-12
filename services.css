@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+nav {
+    /* border: 2px solid blue; */
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo {
+    margin-right: 580px;
+    /* border: 2px solid green; */
+}
+.logo h1 {
+    font-size: 30px;
+    color: black;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 10px;
+    transition: 0.3s;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+i{
+    font-size: 15px;
+    padding: 10px;
+    color: black;
+}
+
+
+/* Faza-2 */
+
+.h1{
+    font-size: 20px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+.rasm1{
+    /* border: 2px solid green;   */
+    margin-left: 20px;
+}
+
+
+.text1{
+    
+    height: 400px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+
+.text1 h1{
+font-size: 35px;
+margin-bottom: 20px;
+}
+.text1 p{
+font-size: 20px;
+}
+.text1 button{
+    height: 60px;
+    width: 150px;
+    margin-top: 20px;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+
+}
+
+/* Faza-3 */
+
+
+.container2{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.text2{
+    /* border: 2px solid blue; */
+    height: 360px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.text2 h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.text2 p{
+    font-size: 20px;
+}
+.text2 button{
+    height: 60px;
+    width: 150px;
+    margin-top: 20px;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+
+}
+
+
+/* Faza-4 */
+
+
+.container3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+.text3{
+    height: 360px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.text3 h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.text3 p{
+    font-size: 20px;
+}
+.text3 button{
+    height: 60px;
+    width: 150px;
+    margin-top: 20px;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+}
+
+
+footer{
+    background-color: rgba(0, 0, 0, 0.89);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+footer p{
+    color: white;
+    font-size: 20px;
+}
+
+button{
+    transition: 0.5s;
+}
+
+/* li a{
+    transition: 2s;
+} */
+
+
+
+/* Faza-5 HOVER */
+
+
+
+button:hover{
+    background-color: white;
+    color: grey;
+    cursor: pointer;
+}
+li a:hover{
+    text-decoration: underline ;
+}

@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+/* FAZA-1 */
+
+
+.container {
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 100%;
+    background-image: url(./blacnot.jpg);
+    object-fit: cover;
+}
+
+background-image{
+    width: 100%;
+    
+}
+
+.container_text{
+    /* border: 2px solid red; */
+    height: 100px;
+    width: 600px;
+    margin-top: 90px;
+    margin-left: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.container_text h1{
+    font-size: 60px;
+}
+
+
+nav {
+    /* border: 2px solid blue; */
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-right: 580px;
+    /* border: 2px solid green; */
+}
+
+.logo h1 {
+    font-size: 30px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+i{
+    font-size: 15px;
+    padding: 10px;
+}
+ 
+/* Faza-3 */
+
+
+.asosiy_text{
+    /* border: 2px solid red; */
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.asosiy_text h1{
+    font-size: 40px;
+}
+.text{
+    /* border: 2px solid blue; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 200px;
+    margin-left: 210px;
+}
+.text p {
+    padding: 7px;
+    font-size: 20px;
+}
+.text h1{
+    margin-bottom: 20px;
+}
+
+/* faza-4 */
+
+
+footer{
+    background-color: rgba(0, 0, 0, 0.89);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+footer p{
+    color: white;
+    font-size: 20px;
+}
+
+/* Faza-5 HOVER */
+
+
+li a:hover{
+    text-decoration: underline ;
+}

@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+
+/* FAZA-1 */
+
+
+.container {
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 100%;
+    background-image: url(./2019_03_02_66706_1551461528._large.jpg);
+    background-size: cover;
+}
+.container img{
+    object-fit: cover;
+}
+
+.container_text{
+    /* border: 2px solid red; */
+    height: 100px;
+    width: 600px;
+    margin-top: 90px;
+    margin-left: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+nav {
+    /* border: 2px solid blue; */
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-right: 580px;
+    /* border: 2px solid green; */
+}
+
+.logo h1 {
+    font-size: 30px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+i{
+    font-size: 15px;
+    padding: 10px;
+}
+ 
+/* FAZA-2 */
+
+.text{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.text p{
+    color: grey;
+    font-size: 15px;
+    margin-top: 15px;
+   
+}
+
+
+
+/* FAZA-3 */
+
+
+.img_and_text{
+    /* border: 2px solid green; */
+    height: 350px;
+    display: flex;
+    margin-top: 10px;
+}
+.rasm{
+    /* border: 2px solid red; */
+    width: 500px;
+    margin-left: 170px;
+}
+.text_and_button{
+    /* border: 2px solid greenyellow; */
+    /* margin-left: 100px; */
+    width: 500px;
+    height: 350px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text_and_button h1{
+margin-bottom: 20px;
+}
+.text_and_button p{
+    color: grey;
+    margin-bottom: 20px;
+}
+.text_and_button button{
+    height: 60px;
+    width: 120px;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+
+
+}
+
+
+
+/* FAZA-4 */
+
+
+.komplar{
+    height: 350px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.sozlar{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 500px;
+}
+
+.sozlar button{
+    height: 60px;
+    width: 120px;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: 0.5s;
+
+
+}
+.sozlar h1{
+    margin-bottom: 10px;
+}
+.sozlar p {
+    padding: 3px;
+}
+
+
+/* FAZA-5 */
+
+
+.uchinchi{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.donat{
+    /* border: 2px solid blue; */
+    height: 300px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.donat button{
+    height: 60px;
+    width: 120px;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: 0.5s;
+
+
+}
+.donat h1{
+    margin-bottom: 10px;
+}
+.donat p {
+    padding: 3px;
+}
+
+
+/* Faza-6 */
+
+.container2{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 350px;
+    background-color: rgb(214, 206, 196);
+}
+.container2 p{
+    color: grey;
+    margin-bottom: 30px;
+}
+.container2 h1{
+    margin-bottom: 30px;
+}
+.inp input{
+height: 50px;
+width: 250px;
+}
+.inp button{
+    width: 120px;
+    height: 50px;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+/* Faza-7 */
+
+footer{
+    background-color: rgba(0, 0, 0, 0.89);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    color: white;
+    font-size: 20px;
+}
+
+/* HOVER */
+
+
+button:hover{
+    background-color: white;
+    color: grey;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline ;
+}
